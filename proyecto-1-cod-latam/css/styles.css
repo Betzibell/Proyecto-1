@@ -118,6 +118,7 @@ section{
 .fotopresentacion img {
     border-radius: 50%;
     width: 400px;
+    height: 300px;
 
 }
 
@@ -138,22 +139,25 @@ section{
     display: inline-block;
 }
 
+#contact{
+    display: flex;
+    
+}
 .seccion2{
     background-color: rgba(175, 89, 158, 0.3);
     border-radius: 10px;
-    padding: 12px 20px;
     justify-content: center;
     text-align: center;
+    padding: 12px 20px;
+    
 }
 
 #iconos{
     display: flex;
     gap: 50px;
     padding: 40px;
-   
-   
-   
-}
+    
+   }
 
 footer{
     display: flex;
